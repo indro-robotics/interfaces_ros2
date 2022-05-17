@@ -38,6 +38,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PTZPosition.msg"
   "msg/ThermalCamera.msg"
   "msg/SwiftNavOutput.msg"
+  "msg/BunkerActuatorState.msg"
+  "msg/BunkerRCState.msg"
+  "msg/BunkerStatus.msg"
 )
 
 ament_package()
