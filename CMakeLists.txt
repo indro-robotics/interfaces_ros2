@@ -45,6 +45,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BunkerActuatorState.msg"
   "msg/BunkerRCState.msg"
   "msg/BunkerStatus.msg"
+  "action/MoveTo.action"
   DEPENDENCIES 
     builtin_interfaces std_msgs
 )
