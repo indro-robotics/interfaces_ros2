@@ -48,6 +48,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DPad.msg"
   "msg/ImageCapture.msg"
   "action/MoveTo.action"
+  "srv/ResetPTZ.srv"
   DEPENDENCIES 
     builtin_interfaces std_msgs
 )
