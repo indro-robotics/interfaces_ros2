@@ -30,7 +30,8 @@ if(BUILD_TESTING)
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/FindShortestPath.srv"
+  "srv/FindShortestPathGPS.srv"
+  "srv/FindShortestPathPOI.srv"
   
   DEPENDENCIES 
     builtin_interfaces std_msgs sensor_msgs action_msgs
