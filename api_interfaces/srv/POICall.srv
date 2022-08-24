@@ -1,0 +1,11 @@
+string[] poi_name
+string action
+float32[] ptz
+float32 heading
+string object_name
+int16 time
+string commmand
+int16 importance
+sensor_msgs/NavSatFix gps_point
+---
+string result

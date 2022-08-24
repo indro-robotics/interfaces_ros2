@@ -32,6 +32,9 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/FindShortestPathGPS.srv"
   "srv/FindShortestPathPOI.srv"
+  "srv/StringResponse.srv"
+  "srv/POICall.srv"
+  "srv/Route.srv"
   
   DEPENDENCIES 
     builtin_interfaces std_msgs sensor_msgs action_msgs
