@@ -35,6 +35,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/StringResponse.srv"
   "srv/POICall.srv"
   "srv/Route.srv"
+  "srv/RouteGPS.srv"
+  "srv/GPSPoint.srv"
+  "action/RouteAction.action"
   
   DEPENDENCIES 
     builtin_interfaces std_msgs sensor_msgs action_msgs
