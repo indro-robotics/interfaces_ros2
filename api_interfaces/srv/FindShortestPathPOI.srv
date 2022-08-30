@@ -2,4 +2,4 @@ string target
 string source
 ---
 string[] result
-string code
+string info

@@ -2,4 +2,4 @@ sensor_msgs/NavSatFix target
 sensor_msgs/NavSatFix source
 ---
 string[] result
-string code
+string info
