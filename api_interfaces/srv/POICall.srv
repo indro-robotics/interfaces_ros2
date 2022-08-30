@@ -1,4 +1,4 @@
-string[] poi_name
+string poi_name
 string action
 float32[] ptz
 float32 heading
