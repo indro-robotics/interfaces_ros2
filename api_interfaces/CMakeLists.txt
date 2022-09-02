@@ -30,14 +30,18 @@ if(BUILD_TESTING)
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/POI.msg"
+
   "srv/FindShortestPathGPS.srv"
   "srv/FindShortestPathPOI.srv"
   "srv/StringResponse.srv"
   "srv/POICall.srv"
+  "srv/POIReturns.srv"
   "srv/Route.srv"
   "srv/RouteGPS.srv"
   "srv/GPSPoint.srv"
   "srv/POILink.srv"
+
   "action/RouteAction.action"
   "action/GPSAction.action"
   
