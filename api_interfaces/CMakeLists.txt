@@ -41,6 +41,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/RouteGPS.srv"
   "srv/GPSPoint.srv"
   "srv/POILink.srv"
+  "srv/SaveRoute.srv"
 
   "action/RouteAction.action"
   "action/GPSAction.action"

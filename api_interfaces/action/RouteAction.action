@@ -1,4 +1,5 @@
 string input
+bool restore
 ---
 string result
 ---
