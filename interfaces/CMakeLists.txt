@@ -49,12 +49,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BunkerStatus.msg"
   "msg/DPad.msg"
   "msg/ImageCapture.msg"
-  "msg/MovementRoutine.msg"
 
   "action/MoveTo.action"
-  "action/OpticalCapture.action"
+  "action/VideoCapture.action"
 
   "srv/ResetPTZ.srv"
+  "srv/ImageCapture.srv"
   DEPENDENCIES 
     builtin_interfaces std_msgs sensor_msgs action_msgs api_interfaces
 )
