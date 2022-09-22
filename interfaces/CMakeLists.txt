@@ -49,6 +49,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BunkerStatus.msg"
   "msg/DPad.msg"
   "msg/ImageCapture.msg"
+  "msg/ModemInfo.msg"
 
   "action/MoveTo.action"
   "action/VideoCapture.action"
