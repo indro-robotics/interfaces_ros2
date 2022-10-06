@@ -45,6 +45,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/RouteInfo.srv"
   "srv/GPSPoints.srv"
   "srv/GPSRoutePoints.srv"
+  "srv/ExportData.srv"
 
   "action/RouteAction.action"
   "action/GPSAction.action"
