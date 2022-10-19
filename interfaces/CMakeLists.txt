@@ -53,6 +53,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   "action/MoveTo.action"
   "action/VideoCapture.action"
+  "action/PTZPosition.action"
 
   "srv/ResetPTZ.srv"
   "srv/ImageCapture.srv"
