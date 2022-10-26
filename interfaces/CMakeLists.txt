@@ -44,12 +44,20 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PTZPosition.msg"
   "msg/ThermalCamera.msg"
   "msg/SwiftNavOutput.msg"
-  "msg/BunkerActuatorState.msg"
-  "msg/BunkerRCState.msg"
-  "msg/BunkerStatus.msg"
   "msg/DPad.msg"
   "msg/ImageCapture.msg"
   "msg/ModemInfoMSG.msg"
+
+  "msg/BunkerActuatorState.msg"
+  "msg/BunkerRCState.msg"
+  "msg/BunkerStatus.msg"
+
+  "msg/ScoutActuatorState.msg"
+  "msg/ScoutLightCmd.msg"
+  "msg/ScoutLightState.msg"
+  "msg/ScoutRCState.msg"
+  "msg/ScoutStatus.msg"
+
 
   "action/MoveTo.action"
   "action/VideoCapture.action"
