@@ -58,6 +58,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ScoutRCState.msg"
   "msg/ScoutStatus.msg"
 
+  "msg/HunterActuatorState.msg"
+  "msg/HunterLightCmd.msg"
+  "msg/HunterLightState.msg"
+  "msg/HunterRCState.msg"
+  "msg/HunterStatus.msg"
 
   "action/MoveTo.action"
   "action/VideoCapture.action"
