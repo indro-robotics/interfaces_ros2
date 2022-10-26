@@ -64,6 +64,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HunterRCState.msg"
   "msg/HunterStatus.msg"
 
+  "msg/RangerActuatorState.msg"
+  "msg/RangerRCState.msg"
+  "msg/RangerSetting.msg"
+  "msg/RangerStatus.msg"
+
   "action/MoveTo.action"
   "action/VideoCapture.action"
   "action/PTZPosition.action"
