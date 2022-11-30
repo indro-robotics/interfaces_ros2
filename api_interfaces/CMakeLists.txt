@@ -36,6 +36,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/FindShortestPathPOI.srv"
   "srv/StringResponse.srv"
   "srv/POICall.srv"
+  "srv/POIInfo.srv"
   "srv/POIReturns.srv"
   "srv/Route.srv"
   "srv/RouteGPS.srv"
