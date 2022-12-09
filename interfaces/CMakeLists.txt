@@ -75,12 +75,18 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TracerRCState.msg"
   "msg/TracerStatus.msg"
 
+  "msg/WiBoticInfo.msg"
+
   "action/MoveTo.action"
   "action/VideoCapture.action"
   "action/PTZPosition.action"
 
   "srv/ResetPTZ.srv"
   "srv/ImageCapture.srv"
+  "srv/ListParameters.srv"
+  "srv/ReadParameter.srv"
+  "srv/SaveParameters.srv"
+  "srv/WriteParameter.srv"
   DEPENDENCIES 
     builtin_interfaces std_msgs sensor_msgs action_msgs api_interfaces
 )
