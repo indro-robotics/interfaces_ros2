@@ -39,54 +39,83 @@ if(BUILD_TESTING)
 endif()
 
 find_package(rosidl_default_generators REQUIRED)
-
-rosidl_generate_interfaces(${PROJECT_NAME}
+set(msg_files_misc
   "msg/PTZPosition.msg"
   "msg/ThermalCamera.msg"
   "msg/SwiftNavOutput.msg"
   "msg/DPad.msg"
   "msg/ImageCapture.msg"
   "msg/ModemInfoMSG.msg"
+)
 
+set (msg_files_bunker
   "msg/BunkerActuatorState.msg"
   "msg/BunkerRCState.msg"
   "msg/BunkerStatus.msg"
-
+)
+set(msg_files_scout
   "msg/ScoutActuatorState.msg"
   "msg/ScoutLightCmd.msg"
   "msg/ScoutLightState.msg"
   "msg/ScoutRCState.msg"
   "msg/ScoutStatus.msg"
+)
 
+set (msg_files_hunter
   "msg/HunterActuatorState.msg"
   "msg/HunterLightCmd.msg"
   "msg/HunterLightState.msg"
   "msg/HunterRCState.msg"
   "msg/HunterStatus.msg"
+)
 
+set (msg_files_ranger
   "msg/RangerActuatorState.msg"
   "msg/RangerRCState.msg"
   "msg/RangerSetting.msg"
   "msg/RangerStatus.msg"
+)
 
+set (msg_files_tracer
   "msg/TracerActuatorState.msg"
   "msg/TracerLightCmd.msg"
   "msg/TracerLightState.msg"
   "msg/TracerRCState.msg"
   "msg/TracerStatus.msg"
+)
 
-  "msg/WiBoticInfo.msg"
-
+set (action_files
   "action/MoveTo.action"
   "action/VideoCapture.action"
   "action/PTZPosition.action"
+)
 
+set (srv_files
   "srv/ResetPTZ.srv"
   "srv/ImageCapture.srv"
   "srv/ListParameters.srv"
   "srv/ReadParameter.srv"
   "srv/SaveParameters.srv"
   "srv/WriteParameter.srv"
+)
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${msg_files_misc}
+
+  ${msg_files_bunker}
+
+  ${msg_files_scout}
+
+  ${msg_files_hunter}
+
+  ${msg_files_ranger}
+
+  ${msg_files_tracer}
+
+  "msg/WiBoticInfo.msg"
+
+  ${action_files}
+
+  ${srv_files}
   DEPENDENCIES 
     builtin_interfaces std_msgs sensor_msgs action_msgs api_interfaces
 )
