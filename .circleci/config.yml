@@ -18,8 +18,8 @@ jobs:
           command: |
               mkdir -p colcon_ws/src
               cd colcon_ws/src
-      - checkout   
-      -run:
+      - checkout
+      - run:
           name: "Build"
           command: |
               cd ..
