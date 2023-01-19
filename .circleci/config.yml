@@ -16,16 +16,16 @@ jobs:
       - run:
           name: "Set up"
           command: |
-          	mkdir -p colcon_ws/src
-          	cd colcon_ws/src
+              mkdir -p colcon_ws/src
+              cd colcon_ws/src
       - checkout   
       -run:
           name: "Build"
           command: |
-          	cd ..
-          	colcon build
+              cd ..
+              colcon build
           
-
+    
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
