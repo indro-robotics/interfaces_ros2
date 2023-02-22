@@ -7,3 +7,4 @@ float32 targetibatt
 float32 icharger
 float32 isinglecharger2
 float32 isinglecharger3
+bool ischarging
